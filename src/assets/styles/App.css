@@ -1,0 +1,20 @@
+/* Styles go here */
+body{
+    background-color: rgb(240, 238, 255);
+}
+.main {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.img-item {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 759px){
+    .main{
+        width: 90% !important;
+    }
+}
